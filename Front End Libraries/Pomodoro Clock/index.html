@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta id="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 text-center">
+                <div id="pomodoro">
+                    <input type="text" id="clock" class="borderAnim timer" disabled>
+                    <br>
+                    <button class="lecture" id="start" onclick="play()">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="reset">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                    <br>
+                    <div id="setter">
+                        <div id="minSetter">
+                            <input type="text" id="setMinutes" value="25">
+                            <br>
+                            <label>Minutes</label>
+                        </div>
+                        <div id="secSetter">
+                            <input type="text" id="setSecondes" value="00">
+                            <br>
+                            <label>Secondes</label>
+                        </div>
+                    </div>
+                    <button id="set"><i>SET TIMER</i></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    </div>
+</body>
+
+</html>

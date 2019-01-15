@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta id="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 text-center">
+                <div id="choice">
+                    <div id="player">
+                        <span>Play Against an another player
+                            <br>Choose your symbole</span><br>
+                        <button id="x1">X</button>
+                        <button id="o1">O</button><br>
+                        <button id="play1">Play</button>
+                    </div>
+                    <div id="robot">
+                        <span>Play Against an IA
+                            <br>Choose your symbole</span><br>
+                        <button id="x2">X</button>
+                        <button id="o2">O</button><br>
+                        <button id="play2">Play</button>
+                    </div>
+                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <button id="top-left"></button>
+                        </td>
+                        <td>
+                            <button id="top-middle"></button>
+                        </td>
+                        <td>
+                            <button id="top-right"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="middle-left"></button>
+                        </td>
+                        <td>
+                            <button id="middle-middle"></button>
+                        </td>
+                        <td>
+                            <button id="middle-right"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="bottom-left"></button>
+                        </td>
+                        <td>
+                            <button id="bottom-middle"></button>
+                        </td>
+                        <td>
+                            <button id="bottom-right"></button>
+                        </td>
+                    </tr>
+                </table>
+                <div id="result"></div>
+                <div id="restart">
+                    <span>Wanna play again ?</span>
+                    <br>
+                    <button id="yes" onclick="restart()">YES</button>
+                    <button id="no" onclick="end()">NO</button>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</body>
+
+</html>

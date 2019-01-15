@@ -1,0 +1,29 @@
+::-webkit-input-placeholder {
+    text-align: center;
+} 
+
+#search, #random{
+    display: none;
+}
+
+.result{
+    display: none;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    text-align: left;
+    border: 1px black solid;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.result p {
+    font-size: 12px;
+}
