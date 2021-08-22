@@ -1,12 +1,24 @@
-# 100 Days of Code Challenge
-
-![freeCodeCamp Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
-
 # freeCodeCamp : Learn to Code and Help Nonprofits
 
 My solutions to the projects offered by [freeCodeCamp](https://www.freecodecamp.org)
 
+![freeCodeCamp Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
+
 # Projects
+
+## Data Analysis with Python
+
+### Data Analysis with Python Projects
+
+* [Mean-Variance-Standard Deviation Calculator](https://github.com/Scylidose/freeCodeCamp/tree/master/Data%20Analysis%20with%20Python/Mean-Variance-Standard%20Deviation%20Calculator)  
+
+* [Demographic Data Analyzer](https://github.com/Scylidose/freeCodeCamp/tree/master/Data%20Analysis%20with%20Python/Demographic%20Data%20Analyzer) 
+
+* [Medical Data Visualizer](https://github.com/Scylidose/freeCodeCamp/tree/master/Data%20Analysis%20with%20Python/Medical%20Data%20Visualizer) 
+
+* [Page View Time Series Visualizer](https://github.com/Scylidose/freeCodeCamp/tree/master/Data%20Analysis%20with%20Python/Page%20View%20Time%20Series%20Visualizer) 
+
+* [Sea Level Predictor](https://github.com/Scylidose/freeCodeCamp/tree/master/Data%20Analysis%20with%20Python/Sea%20Level%20Predictor) 
 
 ## Responsive Web Design
 
